@@ -12,3 +12,11 @@ spring:
     multipart:
       max-file-size: 30MB
       max-request-size: 30MB
+server:
+  ssl:
+    key-store: classpath:keystore.p12
+    key-store-password: adminadmin
+    key-store-type: pkcs12
+    key-alias: springboot
+    key-password: adminadmin
+  port: 8443      
