@@ -14,9 +14,9 @@ spring:
       max-request-size: 30MB
 server:
   ssl:
-    key-store: classpath:keystore.p12
+    key-store: /home/haider/MicroServices/madhyam/src/main/resources/keystore.p12
     key-store-password: adminadmin
     key-store-type: pkcs12
     key-alias: springboot
     key-password: adminadmin
-  port: 8443      
+  port: 9001      
